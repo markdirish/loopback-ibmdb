@@ -1,2 +1,2 @@
-# loopback-ibmdb
-Common set of functions for all IBM connectors that are based on the ibm_db module
+# loopback-odbc
+Common set of functions for connecting to a database through an ODBC connection

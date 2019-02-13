@@ -2,8 +2,12 @@
 # Each line is a file pattern followed by one or more owners,
 # the last matching pattern has the most precendence.
 
+# loopback-odbc members
+# @markdirish
+
+# loopback-ibmdb members
 # Alumni maintainers
 # @kjdelisle @loay @ssh24 @virkt25 
 
 # Core team members from IBM
-* @jannyHou  @b-admike @dhmlau
+# @jannyHou  @b-admike @dhmlau

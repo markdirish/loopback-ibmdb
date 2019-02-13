@@ -1,7 +1,7 @@
 {
-  "name": "loopback-ibmdb",
-  "version": "2.5.1",
-  "description": "LoopBack Connector common code for IBM databases",
+  "name": "loopback-odbc",
+  "version": "0.0.0-alpha.0",
+  "description": "LoopBack Connector common code for ODBC connections",
   "engines": {
     "node": ">=6"
   },
@@ -9,9 +9,10 @@
     "IBM",
     "StrongLoop",
     "LoopBack",
-    "IBMDB",
+    "odbc",
     "DataSource",
-    "Connector"
+    "Connector",
+    "odbc"
   ],
   "main": "index.js",
   "scripts": {
@@ -22,24 +23,25 @@
   "dependencies": {
     "async": "^2.6.1",
     "debug": "^3.1.0",
-    "ibm_db": "^2.3.0",
+    "odbc": "^1.4.5",
     "loopback-connector": "^4.0.0",
     "strong-globalize": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.3.0",
+    "eslint": "^5.12.1",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-loopback": "^11.0.0",
-    "jscs": "^3.0.7",
     "loopback-datasource-juggler": "^3.23.0",
     "mocha": "^5.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strongloop/loopback-ibmdb.git"
+    "url": "git://github.com/markdirish/loopback-odbc.git"
   },
-  "homepage": "https://github.com/strongloop/loopback-ibmdb",
+  "homepage": "https://github.com/markdirish/loopback-odbc",
   "bugs": {
-    "url": "https://github.com/strongloop/loopback-ibmdb/issues"
+    "url": "https://github.com/markdirish/loopback-odbc/issues"
   },
   "license": "Artistic-2.0"
 }

@@ -1,5 +1,5 @@
-// Copyright IBM Corp. 2016. All Rights Reserved.
-// Node module: loopback-connector-db2
+// Copyright IBM Corp. 2016, 2019. All Rights Reserved.
+// Node module: loopback-odbc
 // This file is licensed under the Artistic License 2.0.
 // License text available at https://opensource.org/licenses/Artistic-2.0
 
@@ -7,15 +7,15 @@
 
 /* eslint-env node, mocha */
 process.env.NODE_ENV = 'test';
-var assert = require('assert');
+const assert = require('assert');
 var EventEmitter = require('events').EventEmitter;
-var IBMDB = require('../').IBMDB;
+var ODBCConnector = require('../').ODBCConnector;
 
 var db = new EventEmitter;
 
 describe('functional test', function() {
   before(function(done) {
-    db.connector = new IBMDB('db2', global.config);
+    db.connector = new ODBCConnector('db2', global.config);
     db.connector.dataSource = db;
     done();
   });

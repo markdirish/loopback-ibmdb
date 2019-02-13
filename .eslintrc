@@ -1,3 +1,6 @@
 {
-  "extends": "loopback"
+  "extends": [
+    "airbnb-base",
+    "loopback"
+  ]
 }
